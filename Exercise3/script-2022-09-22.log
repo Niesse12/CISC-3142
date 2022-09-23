@@ -1,0 +1,317 @@
+Script started on 2022-09-22 18:38:13-0700
+]0;nesse@DESKTOP-KHL3DTG: /mnt/c/Users/Nesse/CISC-3142/Exercise3[01;32mnesse@DESKTOP-KHL3DTG[00m:[01;34m/mnt/c/Users/Nesse/CISC-3142/Exercise3[00m$ git
+usage: git [--version] [--help] [-C <path>] [-c <name>=<value>]
+           [--exec-path[=<path>]] [--html-path] [--man-path] [--info-path]
+           [-p | --paginate | --no-pager] [--no-replace-objects] [--bare]
+           [--git-dir=<path>] [--work-tree=<path>] [--namespace=<name>]
+           <command> [<args>]
+
+These are common Git commands used in various situations:
+
+start a working area (see also: git help tutorial)
+   clone      Clone a repository into a new directory
+   init       Create an empty Git repository or reinitialize an existing one
+
+work on the current change (see also: git help everyday)
+   add        Add file contents to the index
+   mv         Move or rename a file, a directory, or a symlink
+   reset      Reset current HEAD to the specified state
+   rm         Remove files from the working tree and from the index
+
+examine the history and state (see also: git help revisions)
+   bisect     Use binary search to find the commit that introduced a bug
+   grep       Print lines matching a pattern
+   log        Show commit logs
+   show       Show various types of objects
+   status     Show the working tree status
+
+grow, mark and tweak your common history
+   branch     List, create, or delete branches
+   checkout   Switch branches or restore working tree files
+   commit     Record changes to the repository
+   diff       Show changes between commits, commit and working tree, etc
+   merge      Join two or more development histories together
+   rebase     Reapply commits on top of another base tip
+   tag        Create, list, delete or verify a tag object signed with GPG
+
+collaborate (see also: git help workflows)
+   fetch      Download objects and refs from another repository
+   pull       Fetch from and integrate with another repository or a local branch
+   push       Update remote refs along with associated objects
+
+'git help -a' and 'git help -g' list available subcommands and some
+concept guides. See 'git help <command>' or 'git help <concept>'
+to read about a specific subcommand or concept.
+]0;nesse@DESKTOP-KHL3DTG: /mnt/c/Users/Nesse/CISC-3142/Exercise3[01;32mnesse@DESKTOP-KHL3DTG[00m:[01;34m/mnt/c/Users/Nesse/CISC-3142/Exercise3[00m$ cd /[K
+]0;nesse@DESKTOP-KHL3DTG: ~[01;32mnesse@DESKTOP-KHL3DTG[00m:[01;34m~[00m$ CD[K[Kcd /mnt/c/Users/Nesse/CISC-3142/
+]0;nesse@DESKTOP-KHL3DTG: /mnt/c/Users/Nesse/CISC-3142[01;32mnesse@DESKTOP-KHL3DTG[00m:[01;34m/mnt/c/Users/Nesse/CISC-3142[00m$ git add read[K[K[K[KREADME.md
+]0;nesse@DESKTOP-KHL3DTG: /mnt/c/Users/Nesse/CISC-3142[01;32mnesse@DESKTOP-KHL3DTG[00m:[01;34m/mnt/c/Users/Nesse/CISC-3142[00m$ git status
+On branch main
+Your branch is up to date with 'origin/main'.
+
+Changes to be committed:
+  (use "git reset HEAD <file>..." to unstage)
+
+	[32mmodified:   README.md[m
+
+Changes not staged for commit:
+  (use "git add <file>..." to update what will be committed)
+  (use "git checkout -- <file>..." to discard changes in working directory)
+
+	[31mmodified:   Exercise3/Part1.txt[m
+	[31mmodified:   Exercise3/README.md[m
+	[31mmodified:   Exercise3/script-2022-09-22.log[m
+	[31mmodified:   Exercise3/time-2022-09-22.txt[m
+
+]0;nesse@DESKTOP-KHL3DTG: /mnt/c/Users/Nesse/CISC-3142[01;32mnesse@DESKTOP-KHL3DTG[00m:[01;34m/mnt/c/Users/Nesse/CISC-3142[00m$ git commiut -m"Mark [Kdown reference [K"
+git: 'commiut' is not a git command. See 'git --help'.
+
+The most similar command is
+	commit
+]0;nesse@DESKTOP-KHL3DTG: /mnt/c/Users/Nesse/CISC-3142[01;32mnesse@DESKTOP-KHL3DTG[00m:[01;34m/mnt/c/Users/Nesse/CISC-3142[00m$ gut[K[Kit commit -m"m[KMarkdown reference"
+
+*** Please tell me who you are.
+
+Run
+
+  git config --global user.email "you@example.com"
+  git config --global user.name "Your Name"
+
+to set your account's default identity.
+Omit --global to set the identity only in this repository.
+
+fatal: empty ident name (for <nesse@DESKTOP-KHL3DTG.localdomain>) not allowed
+]0;nesse@DESKTOP-KHL3DTG: /mnt/c/Users/Nesse/CISC-3142[01;32mnesse@DESKTOP-KHL3DTG[00m:[01;34m/mnt/c/Users/Nesse/CISC-3142[00m$ git config ==g;[K[K[K[K--l[Kglobal user[K[K[K[KRic[K[K[Kuser.email"r[Kww[K[Kr[Kricky[K[K[K[K[KRicky.Lin52@bcmail.cuny.edu"
+]0;nesse@DESKTOP-KHL3DTG: /mnt/c/Users/Nesse/CISC-3142[01;32mnesse@DESKTOP-KHL3DTG[00m:[01;34m/mnt/c/Users/Nesse/CISC-3142[00m$ git config --global usern[K.name "Ricik[K[K[Kky [K[K[K[K[KNess[K[K[K[Knesse"
+]0;nesse@DESKTOP-KHL3DTG: /mnt/c/Users/Nesse/CISC-3142[01;32mnesse@DESKTOP-KHL3DTG[00m:[01;34m/mnt/c/Users/Nesse/CISC-3142[00m$ omit [K[K[K[K[KOmit --global
+
+Command 'Omit' not found, did you mean:
+
+  command 'fmit' from deb fmit
+
+Try: sudo apt install <deb name>
+
+]0;nesse@DESKTOP-KHL3DTG: /mnt/c/Users/Nesse/CISC-3142[01;32mnesse@DESKTOP-KHL3DTG[00m:[01;34m/mnt/c/Users/Nesse/CISC-3142[00m$ git commit -m"Markdown R[Kreference"
+[main 4af5b66] Markdown reference
+ Committer: nesse <nesse@DESKTOP-KHL3DTG.localdomain>
+Your name and email address were configured automatically based
+on your username and hostname. Please check that they are accurate.
+You can suppress this message by setting them explicitly:
+
+    git config --global user.name "Your Name"
+    git config --global user.email you@example.com
+
+After doing this, you may fix the identity used for this commit with:
+
+    git commit --amend --reset-author
+
+ 1 file changed, 15 insertions(+), 2 deletions(-)
+]0;nesse@DESKTOP-KHL3DTG: /mnt/c/Users/Nesse/CISC-3142[01;32mnesse@DESKTOP-KHL3DTG[00m:[01;34m/mnt/c/Users/Nesse/CISC-3142[00m$ git status
+On branch main
+Your branch is ahead of 'origin/main' by 1 commit.
+  (use "git push" to publish your local commits)
+
+Changes not staged for commit:
+  (use "git add <file>..." to update what will be committed)
+  (use "git checkout -- <file>..." to discard changes in working directory)
+
+	[31mmodified:   Exercise3/Part1.txt[m
+	[31mmodified:   Exercise3/README.md[m
+	[31mmodified:   Exercise3/script-2022-09-22.log[m
+	[31mmodified:   Exercise3/time-2022-09-22.txt[m
+
+no changes added to commit (use "git add" and/or "git commit -a")
+]0;nesse@DESKTOP-KHL3DTG: /mnt/c/Users/Nesse/CISC-3142[01;32mnesse@DESKTOP-KHL3DTG[00m:[01;34m/mnt/c/Users/Nesse/CISC-3142[00m$ git status [K Read[K[K[KEADME.M[Kmd
+On branch main
+Your branch is ahead of 'origin/main' by 1 commit.
+  (use "git push" to publish your local commits)
+
+nothing to commit, working tree clean
+]0;nesse@DESKTOP-KHL3DTG: /mnt/c/Users/Nesse/CISC-3142[01;32mnesse@DESKTOP-KHL3DTG[00m:[01;34m/mnt/c/Users/Nesse/CISC-3142[00m$ git push -u origin main
+Username for 'https://github.com': Niesse12
+Password for 'https://Niesse12@github.com': 
+remote: Support for password authentication was removed on August 13, 2021.
+remote: Please see https://docs.github.com/en/get-started/getting-started-with-git/about-remote-repositories#cloning-with-https-urls for information on currently recommended modes of authentication.
+fatal: Authentication failed for 'https://github.com/Niesse12/CISC-3142.git/'
+]0;nesse@DESKTOP-KHL3DTG: /mnt/c/Users/Nesse/CISC-3142[01;32mnesse@DESKTOP-KHL3DTG[00m:[01;34m/mnt/c/Users/Nesse/CISC-3142[00m$ git push -u origin main
+Username for 'https://github.com': ricky.lin52@bnc  cmaill .cuny.edu
+Password for 'https://ricky.lin52@bcmail.cuny.edu@github.com': 
+remote: Support for password authentication was removed on August 13, 2021.
+remote: Please see https://docs.github.com/en/get-started/getting-started-with-git/about-remote-repositories#cloning-with-https-urls for information on currently recommended modes of authentication.
+fatal: Authentication failed for 'https://github.com/Niesse12/CISC-3142.git/'
+]0;nesse@DESKTOP-KHL3DTG: /mnt/c/Users/Nesse/CISC-3142[01;32mnesse@DESKTOP-KHL3DTG[00m:[01;34m/mnt/c/Users/Nesse/CISC-3142[00m$ git push -u origin main
+Username for 'https://github.com': rikc  cky.lin52@bcmail.cunye .edu
+Password for 'https://ricky.lin52@bcmail.cuny.edu@github.com': 
+remote: Support for password authentication was removed on August 13, 2021.
+remote: Please see https://docs.github.com/en/get-started/getting-started-with-git/about-remote-repositories#cloning-with-https-urls for information on currently recommended modes of authentication.
+fatal: Authentication failed for 'https://github.com/Niesse12/CISC-3142.git/'
+]0;nesse@DESKTOP-KHL3DTG: /mnt/c/Users/Nesse/CISC-3142[01;32mnesse@DESKTOP-KHL3DTG[00m:[01;34m/mnt/c/Users/Nesse/CISC-3142[00m$ g[Kgit push -u origin main
+Username for 'https://github.com': Niesse12
+Password for 'https://Niesse12@github.com': 
+remote: Support for password authentication was removed on August 13, 2021.
+remote: Please see https://docs.github.com/en/get-started/getting-started-with-git/about-remote-repositories#cloning-with-https-urls for information on currently recommended modes of authentication.
+fatal: Authentication failed for 'https://github.com/Niesse12/CISC-3142.git/'
+]0;nesse@DESKTOP-KHL3DTG: /mnt/c/Users/Nesse/CISC-3142[01;32mnesse@DESKTOP-KHL3DTG[00m:[01;34m/mnt/c/Users/Nesse/CISC-3142[00m$ git push origin main
+Username for 'https://github.com': 
+Password for 'https://github.com': 
+push    remote: No anonymous write access.
+fatal: Authentication failed for 'https://github.com/Niesse12/CISC-3142.git/'
+]0;nesse@DESKTOP-KHL3DTG: /mnt/c/Users/Nesse/CISC-3142[01;32mnesse@DESKTOP-KHL3DTG[00m:[01;34m/mnt/c/Users/Nesse/CISC-3142[00m$ pys[K[K[Kcommiti[K[K[K[K[K[K[Kpsu[K[Kushed file in gitbash
+pushed: command not found
+]0;nesse@DESKTOP-KHL3DTG: /mnt/c/Users/Nesse/CISC-3142[01;32mnesse@DESKTOP-KHL3DTG[00m:[01;34m/mnt/c/Users/Nesse/CISC-3142[00m$ cd Exercise3/
+]0;nesse@DESKTOP-KHL3DTG: /mnt/c/Users/Nesse/CISC-3142/Exercise3[01;32mnesse@DESKTOP-KHL3DTG[00m:[01;34m/mnt/c/Users/Nesse/CISC-3142/Exercise3[00m$ git add Mar[K[K[KExerciseMN[Kard[Kkdown
+fatal: pathspec 'ExerciseMarkdown' did not match any files
+]0;nesse@DESKTOP-KHL3DTG: /mnt/c/Users/Nesse/CISC-3142/Exercise3[01;32mnesse@DESKTOP-KHL3DTG[00m:[01;34m/mnt/c/Users/Nesse/CISC-3142/Exercise3[00m$ git add ExerciseMarkdown.md
+]0;nesse@DESKTOP-KHL3DTG: /mnt/c/Users/Nesse/CISC-3142/Exercise3[01;32mnesse@DESKTOP-KHL3DTG[00m:[01;34m/mnt/c/Users/Nesse/CISC-3142/Exercise3[00m$ git commit -m" Exercise part [K1 in mark[K[K[Karkdown"
+[main b36ba61]  Exercise part1 in markdown
+ Committer: nesse <nesse@DESKTOP-KHL3DTG.localdomain>
+Your name and email address were configured automatically based
+on your username and hostname. Please check that they are accurate.
+You can suppress this message by setting them explicitly:
+
+    git config --global user.name "Your Name"
+    git config --global user.email you@example.com
+
+After doing this, you may fix the identity used for this commit with:
+
+    git commit --amend --reset-author
+
+ 1 file changed, 26 insertions(+)
+ create mode 100644 Exercise3/ExerciseMarkdown.md
+]0;nesse@DESKTOP-KHL3DTG: /mnt/c/Users/Nesse/CISC-3142/Exercise3[01;32mnesse@DESKTOP-KHL3DTG[00m:[01;34m/mnt/c/Users/Nesse/CISC-3142/Exercise3[00m$ git commit --amend --reset-author
+hint: Waiting for your editor to close the file... [?1049h[22;0;0t[1;30r(B[m[4l[?7h[39;49m[?1h=[?1h=[?1h=[?25l[39;49m(B[m[H[2J[28;53H(B[0;7m[ Reading File ](B[m[28;52H(B[0;7m[ Read 20 lines ](B[m[H(B[0;7m  GNU nano 2.9.3                       /mnt/c/Users/Nesse/CISC-3142/.git/COMMIT_EDITMSG                                 [1;119H(B[m[29d(B[0;7m^G(B[m Get Help    (B[0;7m^O(B[m Write Out   (B[0;7m^W(B[m Where Is    (B[0;7m^K(B[m Cut Text    (B[0;7m^J(B[m Justify     (B[0;7m^C(B[m Cur Pos     (B[0;7mM-U(B[m Undo[106G(B[0;7mM-A(B[m Mark Text[30d(B[0;7m^X(B[m Exit[30;16H(B[0;7m^R(B[m Read File   (B[0;7m^\(B[m Replace     (B[0;7m^U(B[m Uncut Text  (B[0;7m^T(B[m To Spell    (B[0;7m^_(B[m Go To Line  (B[0;7mM-E(B[m Redo[106G(B[0;7mM-6(B[m Copy Text[28d[3;2H[39;49m(B[mExercise part1 in markdown[5d[36m# Please enter the commit message for your changes. Lines starting[6d# with '#' will be ignored, and an empty message aborts the commit.[7d#[8d# Committer: nesse [35m<nesse@DESKTOP-KHL3DTG.localdomain>[9d[36m#[10d# On branch main[11d# Your branch is ahead of 'origin/main' by 1 commit.[12d#   (use "git push" to publish your local commits)[13d#[14d# Changes to be committed:[15d#       new file:   ExerciseMarkdown.md[16d#[17d# Changes not staged for commit:[18d#       modified:   Part1.txt[19d#       modified:   README.md[20d#       modified:   script-2022-09-22.log[21d#       modified:   time-2022-09-22.txt[22d#[3d[39m(B[m[?12l[?25h[?25l[1;111H(B[0;7mModified(B[m[3d^ Exercise part1 in markdown^[?12l[?25h[?25lx Exercise part1 in markdown^x[?12l[?25h[?25l[1P[?12l[?25h[?25l[1P[?12l[?25h[?25l^ Exercise part1 in markdown^[?12l[?25h[?25lx Exercise part1 in markdown^x[?12l[?25h[?25l[2;27r[2;1HM[1;30r[3;1H^x[4d[2P[?12l[?25h[?25l[4;27r[27;1H
+[1;30r[3;4HExercise part1 in markdown^x[?12l[?25h[30;1H[?1049l[23;0;0t[?1l>[?1049h[22;0;0t[1;63r[?12l[?25h[39;49m]104(B[m[4l[?7h[H[2J(B[0;7m  GNU nano 2.9.3                       /mnt/c/Users/Nesse/CISC-3142/.git/COMMIT_EDITMSG                       Modified  [3d(B[m^x Exercise part1 in markdown[5d[36m# Please enter the commit message for your changes. Lines starting[6d# with '#' will be ignored, and an empty message aborts the commit.[7d#[8d# Committer: nesse [35m<nesse@DESKTOP-KHL3DTG.localdomain>[9d[36m#[10d# On branch main[11d# Your branch is ahead of 'origin/main' by 1 commit.[12d#   (use "git push" to publish your local commits)[13d#[14d# Changes to be committed:[15d#       new file:   ExerciseMarkdown.md[16d#[17d# Changes not staged for commit:[18d#       modified:   Part1.txt[19d#       modified:   README.md[20d#       modified:   script-2022-09-22.log[21d#       modified:   time-2022-09-22.txt[22d#[28;52H[39m(B[0;7m[ Read 20 lines ][29d^G(B[m Get Help    (B[0;7m^O(B[m Write Out   (B[0;7m^W(B[m Where Is    (B[0;7m^K(B[m Cut Text    (B[0;7m^J(B[m Justify     (B[0;7m^C(B[m Cur Pos     (B[0;7mM-U(B[m Undo[106G(B[0;7mM-A(B[m Mark Text[30d(B[0;7m^X(B[m Exit[30;16H(B[0;7m^R(B[m Read File   (B[0;7m^\(B[m Replace     (B[0;7m^U(B[m Uncut Text  (B[0;7m^T(B[m To Spell    (B[0;7m^_(B[m Go To Line  (B[0;7mM-E(B[m Redo[106G(B[0;7mM-6(B[m Copy Text[3;3H[?1h=[?1h=[?1h=[H[2J(B[0;7m  GNU nano 2.9.3                       /mnt/c/Users/Nesse/CISC-3142/.git/COMMIT_EDITMSG                       Modified  [3d(B[m^x Exercise part1 in markdown[5d[36m# Please enter the commit message for your changes. Lines starting[6d# with '#' will be ignored, and an empty message aborts the commit.[7d#[8d# Committer: nesse [35m<nesse@DESKTOP-KHL3DTG.localdomain>[9d[36m#[10d# On branch main[11d# Your branch is ahead of 'origin/main' by 1 commit.[12d#   (use "git push" to publish your local commits)[13d#[14d# Changes to be committed:[15d#       new file:   ExerciseMarkdown.md[16d#[17d# Changes not staged for commit:[18d#       modified:   Part1.txt[19d#       modified:   README.md[20d#       modified:   script-2022-09-22.log[21d#       modified:   time-2022-09-22.txt[22d#[28;52H[39m(B[0;7m[ Read 20 lines ][29d^G(B[m Get Help    (B[0;7m^O(B[m Write Out   (B[0;7m^W(B[m Where Is    (B[0;7m^K(B[m Cut Text    (B[0;7m^J(B[m Justify     (B[0;7m^C(B[m Cur Pos     (B[0;7mM-U(B[m Undo[106G(B[0;7mM-A(B[m Mark Text[30d(B[0;7m^X(B[m Exit[30;16H(B[0;7m^R(B[m Read File   (B[0;7m^\(B[m Replace     (B[0;7m^U(B[m Uncut Text  (B[0;7m^T(B[m To Spell    (B[0;7m^_(B[m Go To Line  (B[0;7mM-E(B[m Redo[106G(B[0;7mM-6(B[m Copy Text[62d[1;40H(B[0;7m                                                [1;98H/mnt/c/Users/Nesse/CISC-3142/.git/COMMIT_EDITMSG                                                                                  Modified  [1;236H(B[m[28d[K[29d[K[30d[K[62d(B[0;7m^G(B[m Get Help[19G(B[0;7m^O(B[m Write Out[37G(B[0;7m^W(B[m Where Is[55G(B[0;7m^K(B[m Cut Text[73G(B[0;7m^J(B[m Justify[62;91H(B[0;7m^C(B[m Cur Pos[62;109H(B[0;7mM-U(B[m Undo[62;127H(B[0;7mM-A(B[m Mark Text     (B[0;7mM-](B[m To Bracket    (B[0;7mM-▲(B[m Previous[181G(B[0;7m^B(B[m Back[62;199H(B[0;7m^◀(B[m Prev Word[217G(B[0;7m^A(B[m Home[63d(B[0;7m^X(B[m Exit[63;19H(B[0;7m^R(B[m Read File[37G(B[0;7m^\(B[m Replace[63;55H(B[0;7m^U(B[m Uncut Text     (B[0;7m^T(B[m To Spell[91G(B[0;7m^_(B[m Go To Line     (B[0;7mM-E(B[m Redo[63;127H(B[0;7mM-6(B[m Copy Text     (B[0;7mM-W(B[m WhereIs Next  (B[0;7mM-▼(B[m Next[63;181H(B[0;7m^F(B[m Forward[63;199H(B[0;7m^▶(B[m Next Word[217G(B[0;7m^E(B[m End[61d[?25l[3d^x[?12l[?25h[?25l[?12l[?25h[?25l[1P[?12l[?25h[?25l[1P[?12l[?25h[?25l[3;9H[1K Exercise part1 in markdown[3;9H[?12l[?25h[?25l[8P[?12l[?25h[?25lX Exercise part1 in markdownX[?12l[?25h[?25l[2;61r[2;1HM[1;63r[3;1HX[4d[1P[?12l[?25h[?25l[4;61r[61;1H
+[1;63r[3;3HExercise part1 in markdownX[?12l[?25h[?25l[1P[?12l[?25h[?25l^ Exercise part1 in markdown^[?12l[?25h[?25lZ Exercise part1 in markdown^Z[?12l[?25h[?25lX Exercise part1 in markdown^ZX[?12l[?25h[?25l[1P[?12l[?25h[?25lX Exercise part1 in markdown^ZX[?12l[?25h[?25l[1P[?12l[?25h[?25lX Exercise part1 in markdown^ZX[?12l[?25h[?25l[1P[?12l[?25h[?25l[1P[?12l[?25h[?25lX Exercise part1 in markdown^X[?12l[?25h[?25l[2;61r[2;1HM[1;63r[3;1H^X[4d[2P[?12l[?25h[?25l7[4;61r8M[1;63r[5;1H[?12l[?25h[?25l[4;61r[61;1H
+[1;63r[4;1H[?12l[?25h[?25l[4;61r[61;1H
+[1;63r[3;4HExercise part1 in markdown^X[?12l[?25h[?25l[1P[?12l[?25h[?25l[1P[?12l[?25h[?25l~ Exercise part1 in markdown~[?12l[?25h[?25l[?12l[?25h[?25l[?12l[?25h[?25l[?12l[?25h[?25l[?12l[?25h[?25l[?12l[?25h[?25l[?12l[?25h[?25l[61;109H(B[0;7m[ Unknown sequence ](B[m[?12l[?25h[3d~[?25l[61d[K[62;2H(B[0;7mL(B[m Refresh [19G            [37G           (B[0;7m^W(B[m Where Is       [73G          [62;91H    (B[0;7m^P(B[m Prev Line          [62;127H[15X[62;142H(B[0;7m^Y(B[m Prev Page[21X[62;181H        (B[0;7mM-\(B[m First Line[K[63;4HClose[63;19H            [37G           (B[0;7mM-W(B[m WhereIs Next[20X[63;91H    (B[0;7m^N(B[m Next Line          [63;127H[15X[63;142H(B[0;7m^V(B[m Next Page[17X[63;181H        (B[0;7mM-/(B[m Last Line[K[61d[1;3H(B[0;7m              [1;98H            Main nano help text                 [1;228H        (B[m[3d[39;49m(B[m The nano editor is designed to emulate the functionality and ease-of-use[4d of the UW Pico text editor.  There are four main sections of the editor.[5d The top line shows the program version, the current filename being[6d edited, and whether or not the file has been modified.  Next is the main[7d editor window showing the file being edited.  The status line is the[8d third line from the bottom and shows important messages.  The bottom two[9d lines show the most commonly used shortcuts in the editor.[10d[K[11d Shortcuts are written as follows: Control-key sequences are notated with[12d a (B[0;1m[31m'^'[39m(B[m and can be entered either by using the Ctrl key or pressing the Esc[13d key twice.  Meta-key sequences are notated with (B[0;1m[31m'M-'[39m(B[m and can be entered[14d using either the Alt, Cmd, or Esc key, depending on your keyboard setup.[15d Also, pressing Esc twice and then typing a three-digit decimal number[16d from 000 to 255 will enter the character with the corresponding value.[17d The following keystrokes are available in the main editor window.[18d Alternative keys are shown in parentheses:[19d[K[20d[36m^G[39m(B[m    ([36mF1[39m(B[m)      Display this help text[K[21d[36m^X[39m(B[m    ([36mF2[39m(B[m)      Close the current file buffer / Exit from nano[22d[36m^O[39m(B[m    ([36mF3[39m(B[m)[17GWrite the current file to disk[23d[36m^R[39m(B[m    ([36mF5[39m(B[m)[17GInsert another file into the current one[25d[36m^W[39m(B[m    ([36mF6[39m(B[m)[17GSearch forward for a string or a regular expression[26d[36m^\[39m(B[m    ([36mM-R[39m(B[m)     Replace a string or a regular expression[27d[36m^K[39m(B[m    ([36mF9[39m(B[m)[17GCut the current line and store it in the cutbuffer[28d[36m^U[39m(B[m    ([36mF10[39m(B[m)     Uncut from the cutbuffer into the current line[30d[36m^J[39m(B[m    ([36mF4[39m(B[m)[17GJustify the current paragraph[31d[36m^T[39m(B[m    ([36mF12[39m(B[m)     Invoke the spell checker, if available[32;17HInvoke the linter, if available[33;17HInvoke formatter, if available[35d[36m^C[39m(B[m    ([36mF11[39m(B[m)     Display the position of the cursor[36d[36m^_[39m(B[m    ([36mM-G[39m(B[m)     Go to line and column number[38d[36mM-U[38;17H[39m(B[mUndo the last operation[39d[36mM-E[39;17H[39m(B[mRedo the last undone operation[41d[36mM-A[39m(B[m   ([36m^6[39m(B[m)[17GMark text starting from the cursor position[42d[36mM-6[39m(B[m   ([36mM-^[39m(B[m)     Copy the current line and store it in the cutbuffer[44d[36mM-][44;17H[39m(B[mGo to the matching bracket[46d[36mM-W[39m(B[m   ([36mF16[39m(B[m)     Repeat the last search[47d[36mM-▲[47;17H[39m(B[mSearch next occurrence backward[48d[36mM-▼[48;17H[39m(B[mSearch next occurrence forward[50d[36m^B[39m(B[m    ([36m◀[39m(B[m)[17GGo back one character[51d[36m^F[39m(B[m    ([36m▶[39m(B[m)[17GGo forward one character[52d[36m^◀[39m(B[m    ([36mM-Space[39m(B[m) Go back one word[53d[36m^▶[39m(B[m    ([36m^Space[39m(B[m)  Go forward one word[54d[36m^A[39m(B[m    ([36mHome[39m(B[m)    Go to beginning of current line[55d[36m^E[39m(B[m    ([36mEnd[39m(B[m)     Go to end of current line[57d[36m^P[39m(B[m    ([36m▲[39m(B[m)[17GGo to previous line[58d[36m^N[39m(B[m    ([36m▼[39m(B[m)[17GGo to next line[59d[36mM--[39m(B[m   ([36mM-_[39m(B[m)     Scroll up one line without scrolling the cursor[60d[36mM-+[39m(B[m   ([36mM-=[39m(B[m)     Scroll down one line without scrolling the cursor[3d[62;2H(B[0;7mG(B[m Get Help[19G(B[0;7m^O(B[m Write Out[37G(B[0;7m^W(B[m Where Is       (B[0;7m^K(B[m Cut Text[73G(B[0;7m^J(B[m Justify[62;91H(B[0;7m^C(B[m Cur Pos        (B[0;7mM-U(B[m Undo[62;127H(B[0;7mM-A(B[m Mark Text     (B[0;7mM-](B[m To Bracket    (B[0;7mM-▲(B[m Previous[181G(B[0;7m^B(B[m Back           (B[0;7m^◀(B[m Prev Word[217G(B[0;7m^A(B[m Home[63;4HExit [63;19H(B[0;7m^R(B[m Read File[37G(B[0;7m^\(B[m Replace        (B[0;7m^U(B[m Uncut Text     (B[0;7m^T(B[m To Spell[91G(B[0;7m^_(B[m Go To Line     (B[0;7mM-E(B[m Redo[63;127H(B[0;7mM-6(B[m Copy Text     (B[0;7mM-W(B[m WhereIs Next  (B[0;7mM-▼(B[m Next[63;181H(B[0;7m^F(B[m Forward        (B[0;7m^▶(B[m Next Word[217G(B[0;7m^E(B[m End[61d[H[2J(B[0;7m                                                                                                             Main nano help text                                                                                                             [3;2H(B[mThe nano editor is designed to emulate the functionality and ease-of-use[4d of the UW Pico text editor.  There are four main sections of the editor.[5d The top line shows the program version, the current filename being[6d edited, and whether or not the file has been modified.  Next is the main[7d editor window showing the file being edited.  The status line is the[8d third line from the bottom and shows important messages.  The bottom two[9d lines show the most commonly used shortcuts in the editor.[11d Shortcuts are written as follows: Control-key sequences are notated with[12d a (B[0;1m[31m'^'[39m(B[m and can be entered either by using the Ctrl key or pressing the Esc[13d key twice.  Meta-key sequences are notated with (B[0;1m[31m'M-'[39m(B[m and can be entered[14d using either the Alt, Cmd, or Esc key, depending on your keyboard setup.[15d Also, pressing Esc twice and then typing a three-digit decimal number[16d from 000 to 255 will enter the character with the corresponding value.[17d The following keystrokes are available in the main editor window.[18d Alternative keys are shown in parentheses:[20d[36m^G[39m(B[m    ([36mF1[39m(B[m)[17GDisplay this help text[21d[36m^X[39m(B[m    ([36mF2[39m(B[m)[17GClose the current file buffer / Exit from nano[22d[36m^O[39m(B[m    ([36mF3[39m(B[m)[17GWrite the current file to disk[23d[36m^R[39m(B[m    ([36mF5[39m(B[m)[17GInsert another file into the current one[25d[36m^W[39m(B[m    ([36mF6[39m(B[m)[17GSearch forward for a string or a regular expression[26d[36m^\[39m(B[m    ([36mM-R[39m(B[m)     Replace a string or a regular expression[27d[36m^K[39m(B[m    ([36mF9[39m(B[m)[17GCut the current line and store it in the cutbuffer[28d[36m^U[39m(B[m    ([36mF10[39m(B[m)     Uncut from the cutbuffer into the current line[30d[36m^J[39m(B[m    ([36mF4[39m(B[m)[17GJustify the current paragraph[31d[36m^T[39m(B[m    ([36mF12[39m(B[m)     Invoke the spell checker, if available[32;17HInvoke the linter, if available[33;17HInvoke formatter, if available[35d[36m^C[39m(B[m    ([36mF11[39m(B[m)     Display the position of the cursor[36d[36m^_[39m(B[m    ([36mM-G[39m(B[m)     Go to line and column number[38d[36mM-U[38;17H[39m(B[mUndo the last operation[39d[36mM-E[39;17H[39m(B[mRedo the last undone operation[41d[36mM-A[39m(B[m   ([36m^6[39m(B[m)[17GMark text starting from the cursor position[42d[36mM-6[39m(B[m   ([36mM-^[39m(B[m)     Copy the current line and store it in the cutbuffer[44d[36mM-][44;17H[39m(B[mGo to the matching bracket[46d[36mM-W[39m(B[m   ([36mF16[39m(B[m)     Repeat the last search[47d[36mM-▲[47;17H[39m(B[mSearch next occurrence backward[48d[36mM-▼[48;17H[39m(B[mSearch next occurrence forward[50d[36m^B[39m(B[m    ([36m◀[39m(B[m)[17GGo back one character[51d[36m^F[39m(B[m    ([36m▶[39m(B[m)[17GGo forward one character[52d[36m^◀[39m(B[m    ([36mM-Space[39m(B[m) Go back one word[53d[36m^▶[39m(B[m    ([36m^Space[39m(B[m)  Go forward one word[54d[36m^A[39m(B[m    ([36mHome[39m(B[m)    Go to beginning of current line[55d[36m^E[39m(B[m    ([36mEnd[39m(B[m)     Go to end of current line[57d[36m^P[39m(B[m    ([36m▲[39m(B[m)[17GGo to previous line[58d[36m^N[39m(B[m    ([36m▼[39m(B[m)[17GGo to next line[59d[36mM--[39m(B[m   ([36mM-_[39m(B[m)     Scroll up one line without scrolling the cursor[60d[36mM-+[39m(B[m   ([36mM-=[39m(B[m)     Scroll down one line without scrolling the cursor[62d(B[0;7m^G(B[m Get Help[19G(B[0;7m^O(B[m Write Out[37G(B[0;7m^W(B[m Where Is[55G(B[0;7m^K(B[m Cut Text[73G(B[0;7m^J(B[m Justify[62;91H(B[0;7m^C(B[m Cur Pos[62;109H(B[0;7mM-U(B[m Undo[62;127H(B[0;7mM-A(B[m Mark Text     (B[0;7mM-](B[m To Bracket    (B[0;7mM-▲(B[m Previous[181G(B[0;7m^B(B[m Back[62;199H(B[0;7m^◀(B[m Prev Word[217G(B[0;7m^A(B[m Home[63d(B[0;7m^X(B[m Exit[63;19H(B[0;7m^R(B[m Read File[37G(B[0;7m^\(B[m Replace[63;55H(B[0;7m^U(B[m Uncut Text     (B[0;7m^T(B[m To Spell[91G(B[0;7m^_(B[m Go To Line     (B[0;7mM-E(B[m Redo[63;127H(B[0;7mM-6(B[m Copy Text     (B[0;7mM-W(B[m WhereIs Next  (B[0;7mM-▼(B[m Next[63;181H(B[0;7m^F(B[m Forward[63;199H(B[0;7m^▶(B[m Next Word[217G(B[0;7m^E(B[m End[61d[1;3H(B[0;7mGNU nano 2.9.3[1;98H/mnt/c/Users/Nesse/CISC-3142/.git/COMMIT_EDITMSG[1;228HModified(B[m[3d[39;49m(B[m~ Exercise part1 in markdown[K[4d[K[5d[36m# Please enter the commit message for your changes. Lines starting[39m(B[m[K[6d[36m# with '#' will be ignored, and an empty message aborts the commit.[39m(B[m[K[7d[36m#[39m(B[m[K[8d[36m# Committer: nesse [35m<nesse@DESKTOP-KHL3DTG.localdomain>[39m(B[m[K[9d[36m#[39m(B[m[K[10d[36m# On branch main[11d# Your branch is ahead of 'origin/main' by 1 commit.[39m(B[m[K[12d[36m#   (use "git push" to publish your local commits)[39m(B[m[K[13d[36m#[39m(B[m[K[14d[36m# Changes to be committed:[39m(B[m[K[15d[36m#       new file:   ExerciseMarkdown.md[39m(B[m[K[16d[36m#[39m(B[m[K[17d[36m# Changes not staged for commit:[39m(B[m[K[18d[36m#       modified:   Part1.txt[39m(B[m[K[19d[36m#       modified:   README.md[20d#       modified:   script-2022-09-22.log[21d#       modified:   time-2022-09-22.txt[39m(B[m[K[22d[36m#[39m(B[m[K[23d[K[25d[K[26d[K[27d[K[28d[K[30d[K[31d[K[32d[K[33d[K[35d[K[36d[K[38d[K[39d[K[41d[K[42d[K[44d[K[46d[K[47d[K[48d[K[50d[K[51d[K[52d[K[53d[K[54d[K[55d[K[57d[K[58d[K[59d[K[60d[K[61d[3d~[?12l[?25h[?25l^ Exercise part1 in markdown~^[?12l[?25h[?25lX Exercise part1 in markdown~^X[?12l[?25h[?25l[2;61r[2;1HM[1;63r[3;1H~^X[4d[3P[?12l[?25h[?25l7[4;61r8M[1;63r[5;1H[?12l[?25h[?25l[4;61r[4;1HM[1;63r[6;1H[?12l[?25h[?25l[4;61r[4;1HM[1;63r[7;1H[?12l[?25h[?25l[4;61r[61;1H
+[1;63r[6;1H[?12l[?25h[?25l[4;61r[61;1H
+[1;63r[5;1H[?12l[?25h[?25l[4;61r[61;1H
+[1;63r[4;1H[?12l[?25h[?25l[4;61r[61;1H
+[1;63r[3;5HExercise part1 in markdown~^X[?12l[?25h[?25l[1P[?12l[?25h[?25l[1P[?12l[?25h[?25l[1P[?12l[?25h[?25l[?12l[?25h[?25l[?12l[?25h[?25l[?12l[?25h[?25l[?12l[?25h[?25l[?12l[?25h[?25l[?12l[?25h[?25l[?12l[?25h[?25l[?12l[?25h[?25l[?12l[?25h[?25l[?12l[?25h[?25l[62;2H(B[0;7mL(B[m Refresh [19G            [37G           (B[0;7m^W(B[m Where Is       [73G          [62;91H    (B[0;7m^P(B[m Prev Line          [62;127H[15X[62;142H(B[0;7m^Y(B[m Prev Page[21X[62;181H        (B[0;7mM-\(B[m First Line[K[63;4HClose[63;19H            [37G           (B[0;7mM-W(B[m WhereIs Next[20X[63;91H    (B[0;7m^N(B[m Next Line          [63;127H[15X[63;142H(B[0;7m^V(B[m Next Page[17X[63;181H        (B[0;7mM-/(B[m Last Line[K[61d[1;3H(B[0;7m              [1;98H            Main nano help text                 [1;228H        (B[m[3;2H[39;49m(B[mThe nano editor is designed to emulate the functionality and ease-of-use[4d of the UW Pico text editor.  There are four main sections of the editor.[5d The top line shows the program version, the current filename being[6d edited, and whether or not the file has been modified.  Next is the main[7d editor window showing the file being edited.  The status line is the[8d third line from the bottom and shows important messages.  The bottom two[9d lines show the most commonly used shortcuts in the editor.[10d[K[11d Shortcuts are written as follows: Control-key sequences are notated with[12d a (B[0;1m[31m'^'[39m(B[m and can be entered either by using the Ctrl key or pressing the Esc[13d key twice.  Meta-key sequences are notated with (B[0;1m[31m'M-'[39m(B[m and can be entered[14d using either the Alt, Cmd, or Esc key, depending on your keyboard setup.[15d Also, pressing Esc twice and then typing a three-digit decimal number[16d from 000 to 255 will enter the character with the corresponding value.[17d The following keystrokes are available in the main editor window.[18d Alternative keys are shown in parentheses:[19d[K[20d[36m^G[39m(B[m    ([36mF1[39m(B[m)      Display this help text[K[21d[36m^X[39m(B[m    ([36mF2[39m(B[m)      Close the current file buffer / Exit from nano[22d[36m^O[39m(B[m    ([36mF3[39m(B[m)[17GWrite the current file to disk[23d[36m^R[39m(B[m    ([36mF5[39m(B[m)[17GInsert another file into the current one[25d[36m^W[39m(B[m    ([36mF6[39m(B[m)[17GSearch forward for a string or a regular expression[26d[36m^\[39m(B[m    ([36mM-R[39m(B[m)     Replace a string or a regular expression[27d[36m^K[39m(B[m    ([36mF9[39m(B[m)[17GCut the current line and store it in the cutbuffer[28d[36m^U[39m(B[m    ([36mF10[39m(B[m)     Uncut from the cutbuffer into the current line[30d[36m^J[39m(B[m    ([36mF4[39m(B[m)[17GJustify the current paragraph[31d[36m^T[39m(B[m    ([36mF12[39m(B[m)     Invoke the spell checker, if available[32;17HInvoke the linter, if available[33;17HInvoke formatter, if available[35d[36m^C[39m(B[m    ([36mF11[39m(B[m)     Display the position of the cursor[36d[36m^_[39m(B[m    ([36mM-G[39m(B[m)     Go to line and column number[38d[36mM-U[38;17H[39m(B[mUndo the last operation[39d[36mM-E[39;17H[39m(B[mRedo the last undone operation[41d[36mM-A[39m(B[m   ([36m^6[39m(B[m)[17GMark text starting from the cursor position[42d[36mM-6[39m(B[m   ([36mM-^[39m(B[m)     Copy the current line and store it in the cutbuffer[44d[36mM-][44;17H[39m(B[mGo to the matching bracket[46d[36mM-W[39m(B[m   ([36mF16[39m(B[m)     Repeat the last search[47d[36mM-▲[47;17H[39m(B[mSearch next occurrence backward[48d[36mM-▼[48;17H[39m(B[mSearch next occurrence forward[50d[36m^B[39m(B[m    ([36m◀[39m(B[m)[17GGo back one character[51d[36m^F[39m(B[m    ([36m▶[39m(B[m)[17GGo forward one character[52d[36m^◀[39m(B[m    ([36mM-Space[39m(B[m) Go back one word[53d[36m^▶[39m(B[m    ([36m^Space[39m(B[m)  Go forward one word[54d[36m^A[39m(B[m    ([36mHome[39m(B[m)    Go to beginning of current line[55d[36m^E[39m(B[m    ([36mEnd[39m(B[m)     Go to end of current line[57d[36m^P[39m(B[m    ([36m▲[39m(B[m)[17GGo to previous line[58d[36m^N[39m(B[m    ([36m▼[39m(B[m)[17GGo to next line[59d[36mM--[39m(B[m   ([36mM-_[39m(B[m)     Scroll up one line without scrolling the cursor[60d[36mM-+[39m(B[m   ([36mM-=[39m(B[m)     Scroll down one line without scrolling the cursor[3d[62;2H(B[0;7mG(B[m Get Help[19G(B[0;7m^O(B[m Write Out[37G(B[0;7m^W(B[m Where Is       (B[0;7m^K(B[m Cut Text[73G(B[0;7m^J(B[m Justify[62;91H(B[0;7m^C(B[m Cur Pos        (B[0;7mM-U(B[m Undo[62;127H(B[0;7mM-A(B[m Mark Text     (B[0;7mM-](B[m To Bracket    (B[0;7mM-▲(B[m Previous[181G(B[0;7m^B(B[m Back           (B[0;7m^◀(B[m Prev Word[217G(B[0;7m^A(B[m Home[63;4HExit [63;19H(B[0;7m^R(B[m Read File[37G(B[0;7m^\(B[m Replace        (B[0;7m^U(B[m Uncut Text     (B[0;7m^T(B[m To Spell[91G(B[0;7m^_(B[m Go To Line     (B[0;7mM-E(B[m Redo[63;127H(B[0;7mM-6(B[m Copy Text     (B[0;7mM-W(B[m WhereIs Next  (B[0;7mM-▼(B[m Next[63;181H(B[0;7m^F(B[m Forward        (B[0;7m^▶(B[m Next Word[217G(B[0;7m^E(B[m End[61d[H[2J(B[0;7m                                                                                                             Main nano help text                                                                                                             [3;2H(B[mThe nano editor is designed to emulate the functionality and ease-of-use[4d of the UW Pico text editor.  There are four main sections of the editor.[5d The top line shows the program version, the current filename being[6d edited, and whether or not the file has been modified.  Next is the main[7d editor window showing the file being edited.  The status line is the[8d third line from the bottom and shows important messages.  The bottom two[9d lines show the most commonly used shortcuts in the editor.[11d Shortcuts are written as follows: Control-key sequences are notated with[12d a (B[0;1m[31m'^'[39m(B[m and can be entered either by using the Ctrl key or pressing the Esc[13d key twice.  Meta-key sequences are notated with (B[0;1m[31m'M-'[39m(B[m and can be entered[14d using either the Alt, Cmd, or Esc key, depending on your keyboard setup.[15d Also, pressing Esc twice and then typing a three-digit decimal number[16d from 000 to 255 will enter the character with the corresponding value.[17d The following keystrokes are available in the main editor window.[18d Alternative keys are shown in parentheses:[20d[36m^G[39m(B[m    ([36mF1[39m(B[m)[17GDisplay this help text[21d[36m^X[39m(B[m    ([36mF2[39m(B[m)[17GClose the current file buffer / Exit from nano[22d[36m^O[39m(B[m    ([36mF3[39m(B[m)[17GWrite the current file to disk[23d[36m^R[39m(B[m    ([36mF5[39m(B[m)[17GInsert another file into the current one[25d[36m^W[39m(B[m    ([36mF6[39m(B[m)[17GSearch forward for a string or a regular expression[26d[36m^\[39m(B[m    ([36mM-R[39m(B[m)     Replace a string or a regular expression[27d[36m^K[39m(B[m    ([36mF9[39m(B[m)[17GCut the current line and store it in the cutbuffer[28d[36m^U[39m(B[m    ([36mF10[39m(B[m)     Uncut from the cutbuffer into the current line[30d[36m^J[39m(B[m    ([36mF4[39m(B[m)[17GJustify the current paragraph[31d[36m^T[39m(B[m    ([36mF12[39m(B[m)     Invoke the spell checker, if available[32;17HInvoke the linter, if available[33;17HInvoke formatter, if available[35d[36m^C[39m(B[m    ([36mF11[39m(B[m)     Display the position of the cursor[36d[36m^_[39m(B[m    ([36mM-G[39m(B[m)     Go to line and column number[38d[36mM-U[38;17H[39m(B[mUndo the last operation[39d[36mM-E[39;17H[39m(B[mRedo the last undone operation[41d[36mM-A[39m(B[m   ([36m^6[39m(B[m)[17GMark text starting from the cursor position[42d[36mM-6[39m(B[m   ([36mM-^[39m(B[m)     Copy the current line and store it in the cutbuffer[44d[36mM-][44;17H[39m(B[mGo to the matching bracket[46d[36mM-W[39m(B[m   ([36mF16[39m(B[m)     Repeat the last search[47d[36mM-▲[47;17H[39m(B[mSearch next occurrence backward[48d[36mM-▼[48;17H[39m(B[mSearch next occurrence forward[50d[36m^B[39m(B[m    ([36m◀[39m(B[m)[17GGo back one character[51d[36m^F[39m(B[m    ([36m▶[39m(B[m)[17GGo forward one character[52d[36m^◀[39m(B[m    ([36mM-Space[39m(B[m) Go back one word[53d[36m^▶[39m(B[m    ([36m^Space[39m(B[m)  Go forward one word[54d[36m^A[39m(B[m    ([36mHome[39m(B[m)    Go to beginning of current line[55d[36m^E[39m(B[m    ([36mEnd[39m(B[m)     Go to end of current line[57d[36m^P[39m(B[m    ([36m▲[39m(B[m)[17GGo to previous line[58d[36m^N[39m(B[m    ([36m▼[39m(B[m)[17GGo to next line[59d[36mM--[39m(B[m   ([36mM-_[39m(B[m)     Scroll up one line without scrolling the cursor[60d[36mM-+[39m(B[m   ([36mM-=[39m(B[m)     Scroll down one line without scrolling the cursor[62d(B[0;7m^G(B[m Get Help[19G(B[0;7m^O(B[m Write Out[37G(B[0;7m^W(B[m Where Is[55G(B[0;7m^K(B[m Cut Text[73G(B[0;7m^J(B[m Justify[62;91H(B[0;7m^C(B[m Cur Pos[62;109H(B[0;7mM-U(B[m Undo[62;127H(B[0;7mM-A(B[m Mark Text     (B[0;7mM-](B[m To Bracket    (B[0;7mM-▲(B[m Previous[181G(B[0;7m^B(B[m Back[62;199H(B[0;7m^◀(B[m Prev Word[217G(B[0;7m^A(B[m Home[63d(B[0;7m^X(B[m Exit[63;19H(B[0;7m^R(B[m Read File[37G(B[0;7m^\(B[m Replace[63;55H(B[0;7m^U(B[m Uncut Text     (B[0;7m^T(B[m To Spell[91G(B[0;7m^_(B[m Go To Line     (B[0;7mM-E(B[m Redo[63;127H(B[0;7mM-6(B[m Copy Text     (B[0;7mM-W(B[m WhereIs Next  (B[0;7mM-▼(B[m Next[63;181H(B[0;7m^F(B[m Forward[63;199H(B[0;7m^▶(B[m Next Word[217G(B[0;7m^E(B[m End[61d[1;3H(B[0;7mGNU nano 2.9.3[1;98H/mnt/c/Users/Nesse/CISC-3142/.git/COMMIT_EDITMSG[1;228HModified(B[m[3;2H[39;49m(B[mExercise part1 in markdown[K[4d[K[5d[36m# Please enter the commit message for your changes. Lines starting[39m(B[m[K[6d[36m# with '#' will be ignored, and an empty message aborts the commit.[39m(B[m[K[7d[36m#[39m(B[m[K[8d[36m# Committer: nesse [35m<nesse@DESKTOP-KHL3DTG.localdomain>[39m(B[m[K[9d[36m#[39m(B[m[K[10d[36m# On branch main[11d# Your branch is ahead of 'origin/main' by 1 commit.[39m(B[m[K[12d[36m#   (use "git push" to publish your local commits)[39m(B[m[K[13d[36m#[39m(B[m[K[14d[36m# Changes to be committed:[39m(B[m[K[15d[36m#       new file:   ExerciseMarkdown.md[39m(B[m[K[16d[36m#[39m(B[m[K[17d[36m# Changes not staged for commit:[39m(B[m[K[18d[36m#       modified:   Part1.txt[39m(B[m[K[19d[36m#       modified:   README.md[20d#       modified:   script-2022-09-22.log[21d#       modified:   time-2022-09-22.txt[39m(B[m[K[22d[36m#[39m(B[m[K[23d[K[25d[K[26d[K[27d[K[28d[K[30d[K[31d[K[32d[K[33d[K[35d[K[36d[K[38d[K[39d[K[41d[K[42d[K[44d[K[46d[K[47d[K[48d[K[50d[K[51d[K[52d[K[53d[K[54d[K[55d[K[57d[K[58d[K[59d[K[60d[K[61d[3d[?12l[?25h[?25l[61d(B[0;7mSave modified buffer?  (Answering "No" will DISCARD changes.)                                                                                                                                                                                [62;1H Y(B[m Yes[K[63d(B[0;7m N(B[m No  [63;17H(B[0;7m^C(B[m Cancel[K[61;63H[?12l[?25h[?25l[J[63;237H[?12l[?25h[63;1H[?1049l[23;0;0t[?1l>[K[main 96b3405]  Exercise part1 in markdown
+ Committer: nesse <nesse@DESKTOP-KHL3DTG.localdomain>
+Your name and email address were configured automatically based
+on your username and hostname. Please check that they are accurate.
+You can suppress this message by setting them explicitly:
+
+    git config --global user.name "Your Name"
+    git config --global user.email you@example.com
+
+After doing this, you may fix the identity used for this commit with:
+
+    git commit --amend --reset-author
+
+ 1 file changed, 26 insertions(+)
+ create mode 100644 Exercise3/ExerciseMarkdown.md
+]0;nesse@DESKTOP-KHL3DTG: /mnt/c/Users/Nesse/CISC-3142/Exercise3[01;32mnesse@DESKTOP-KHL3DTG[00m:[01;34m/mnt/c/Users/Nesse/CISC-3142/Exercise3[00m$ [K]0;nesse@DESKTOP-KHL3DTG: /mnt/c/Users/Nesse/CISC-3142/Exercise3[01;32mnesse@DESKTOP-KHL3DTG[00m:[01;34m/mnt/c/Users/Nesse/CISC-3142/Exercise3[00m$ git push origin main
+Username for 'https://github.com': ricky     Ricky.lin52     Lin52@bcmail.cuny.edu
+Password for 'https://Ricky.Lin52@bcmail.cuny.edu@github.com': 
+remote: Support for password authentication was removed on August 13, 2021.
+remote: Please see https://docs.github.com/en/get-started/getting-started-with-git/about-remote-repositories#cloning-with-https-urls for information on currently recommended modes of authentication.
+fatal: Authentication failed for 'https://github.com/Niesse12/CISC-3142.git/'
+]0;nesse@DESKTOP-KHL3DTG: /mnt/c/Users/Nesse/CISC-3142/Exercise3[01;32mnesse@DESKTOP-KHL3DTG[00m:[01;34m/mnt/c/Users/Nesse/CISC-3142/Exercise3[00m$ git push origin main
+Username for 'https://github.com': Niesse12
+Password for 'https://Niesse12@github.com': 
+remote: Support for password authentication was removed on August 13, 2021.
+remote: Please see https://docs.github.com/en/get-started/getting-started-with-git/about-remote-repositories#cloning-with-https-urls for information on currently recommended modes of authentication.
+fatal: Authentication failed for 'https://github.com/Niesse12/CISC-3142.git/'
+]0;nesse@DESKTOP-KHL3DTG: /mnt/c/Users/Nesse/CISC-3142/Exercise3[01;32mnesse@DESKTOP-KHL3DTG[00m:[01;34m/mnt/c/Users/Nesse/CISC-3142/Exercise3[00m$ git push origin main
+Username for 'https://github.com': nesse
+Password for 'https://nesse@github.com': 
+remote: Support for password authentication was removed on August 13, 2021.
+remote: Please see https://docs.github.com/en/get-started/getting-started-with-git/about-remote-repositories#cloning-with-https-urls for information on currently recommended modes of authentication.
+fatal: Authentication failed for 'https://github.com/Niesse12/CISC-3142.git/'
+]0;nesse@DESKTOP-KHL3DTG: /mnt/c/Users/Nesse/CISC-3142/Exercise3[01;32mnesse@DESKTOP-KHL3DTG[00m:[01;34m/mnt/c/Users/Nesse/CISC-3142/Exercise3[00m$ git push por[K[K[Kopr[K[K[Korigin main
+Username for 'https://github.com': Niesse12
+Password for 'https://Niesse12@github.com': 
+remote: Support for password authentication was removed on August 13, 2021.
+remote: Please see https://docs.github.com/en/get-started/getting-started-with-git/about-remote-repositories#cloning-with-https-urls for information on currently recommended modes of authentication.
+fatal: Authentication failed for 'https://github.com/Niesse12/CISC-3142.git/'
+]0;nesse@DESKTOP-KHL3DTG: /mnt/c/Users/Nesse/CISC-3142/Exercise3[01;32mnesse@DESKTOP-KHL3DTG[00m:[01;34m/mnt/c/Users/Nesse/CISC-3142/Exercise3[00m$ N[Kgit push origin main
+Username for 'https://github.com': Niesse12
+Password for 'https://Niesse12@github.com': 
+remote: Invalid username or password.
+fatal: Authentication failed for 'https://github.com/Niesse12/CISC-3142.git/'
+]0;nesse@DESKTOP-KHL3DTG: /mnt/c/Users/Nesse/CISC-3142/Exercise3[01;32mnesse@DESKTOP-KHL3DTG[00m:[01;34m/mnt/c/Users/Nesse/CISC-3142/Exercise3[00m$ git ps[Kush origin main
+Username for 'https://github.com': Niesse12
+Password for 'https://Niesse12@github.com': 
+remote: Invalid username or password.
+fatal: Authentication failed for 'https://github.com/Niesse12/CISC-3142.git/'
+]0;nesse@DESKTOP-KHL3DTG: /mnt/c/Users/Nesse/CISC-3142/Exercise3[01;32mnesse@DESKTOP-KHL3DTG[00m:[01;34m/mnt/c/Users/Nesse/CISC-3142/Exercise3[00m$ ^V[Kgit config --global usern[K.name"[K "Niesse12"
+]0;nesse@DESKTOP-KHL3DTG: /mnt/c/Users/Nesse/CISC-3142/Exercise3[01;32mnesse@DESKTOP-KHL3DTG[00m:[01;34m/mnt/c/Users/Nesse/CISC-3142/Exercise3[00m$ git config --global user,.[K[K.email "ricky.lin52@bcmail.cuny.ed u"
+]0;nesse@DESKTOP-KHL3DTG: /mnt/c/Users/Nesse/CISC-3142/Exercise3[01;32mnesse@DESKTOP-KHL3DTG[00m:[01;34m/mnt/c/Users/Nesse/CISC-3142/Exercise3[00m$ git config -1
+error: unknown switch `1'
+usage: git config [<options>]
+
+Config file location
+    --global              use global config file
+    --system              use system config file
+    --local               use repository config file
+    -f, --file <file>     use given config file
+    --blob <blob-id>      read config from given blob object
+
+Action
+    --get                 get value: name [value-regex]
+    --get-all             get all values: key [value-regex]
+    --get-regexp          get values for regexp: name-regex [value-regex]
+    --get-urlmatch        get value specific for the URL: section[.var] URL
+    --replace-all         replace all matching variables: name value [value_regex]
+    --add                 add a new variable: name value
+    --unset               remove a variable: name [value-regex]
+    --unset-all           remove all matches: name [value-regex]
+    --rename-section      rename section: old-name new-name
+    --remove-section      remove a section: name
+    -l, --list            list all
+    -e, --edit            open an editor
+    --get-color           find the color configured: slot [default]
+    --get-colorbool       find the color setting: slot [stdout-is-tty]
+
+Type
+    --bool                value is "true" or "false"
+    --int                 value is decimal number
+    --bool-or-int         value is --bool or --int
+    --path                value is a path (file or directory name)
+    --expiry-date         value is an expiry date
+
+Other
+    -z, --null            terminate values with NUL byte
+    --name-only           show variable names only
+    --includes            respect include directives on lookup
+    --show-origin         show origin of config (file, standard input, blob, command line)
+
+]0;nesse@DESKTOP-KHL3DTG: /mnt/c/Users/Nesse/CISC-3142/Exercise3[01;32mnesse@DESKTOP-KHL3DTG[00m:[01;34m/mnt/c/Users/Nesse/CISC-3142/Exercise3[00m$ git config --global credential.he;[Klper cahe
+]0;nesse@DESKTOP-KHL3DTG: /mnt/c/Users/Nesse/CISC-3142/Exercise3[01;32mnesse@DESKTOP-KHL3DTG[00m:[01;34m/mnt/c/Users/Nesse/CISC-3142/Exercise3[00m$ git pull -v
+POST git-upload-pack (277 bytes)
+remote: Enumerating objects: 6, done.[K
+remote: Counting objects:  16% (1/6)[Kremote: Counting objects:  33% (2/6)[Kremote: Counting objects:  50% (3/6)[Kremote: Counting objects:  66% (4/6)[Kremote: Counting objects:  83% (5/6)[Kremote: Counting objects: 100% (6/6)[Kremote: Counting objects: 100% (6/6), done.[K
+remote: Compressing objects:  25% (1/4)[Kremote: Compressing objects:  50% (2/4)[Kremote: Compressing objects:  75% (3/4)[Kremote: Compressing objects: 100% (4/4)[Kremote: Compressing objects: 100% (4/4), done.[K
+remote: Total 5 (delta 0), reused 1 (delta 0), pack-reused 0[K
+Unpacking objects:  20% (1/5)   Unpacking objects:  40% (2/5)   Unpacking objects:  60% (3/5)   Unpacking objects:  80% (4/5)   Unpacking objects: 100% (5/5)   Unpacking objects: 100% (5/5), done.
+From https://github.com/Niesse12/CISC-3142
+ = [up to date]      main       -> origin/main
+ * [new branch]      Exercise3  -> origin/Exercise3
+Already up to date.
+]0;nesse@DESKTOP-KHL3DTG: /mnt/c/Users/Nesse/CISC-3142/Exercise3[01;32mnesse@DESKTOP-KHL3DTG[00m:[01;34m/mnt/c/Users/Nesse/CISC-3142/Exercise3[00m$ git push origin main
+git: 'credential-cahe' is not a git command. See 'git --help'.
+
+The most similar command is
+	credential-cache
+Username for 'https://github.com': Niesse12
+Password for 'https://Niesse12@github.com': 
+git: 'credential-cahe' is not a git command. See 'git --help'.
+
+The most similar command is
+	credential-cache
+remote: Support for password authentication was removed on August 13, 2021.
+remote: Please see https://docs.github.com/en/get-started/getting-started-with-git/about-remote-repositories#cloning-with-https-urls for information on currently recommended modes of authentication.
+fatal: Authentication failed for 'https://github.com/Niesse12/CISC-3142.git/'
+]0;nesse@DESKTOP-KHL3DTG: /mnt/c/Users/Nesse/CISC-3142/Exercise3[01;32mnesse@DESKTOP-KHL3DTG[00m:[01;34m/mnt/c/Users/Nesse/CISC-3142/Exercise3[00m$ git config --global credential.helper cache
+]0;nesse@DESKTOP-KHL3DTG: /mnt/c/Users/Nesse/CISC-3142/Exercise3[01;32mnesse@DESKTOP-KHL3DTG[00m:[01;34m/mnt/c/Users/Nesse/CISC-3142/Exercise3[00m$ git push origin main
+Username for 'https://github.com': Niesse12
+Password for 'https://Niesse12@github.com': 
+remote: Support for password authentication was removed on August 13, 2021.
+remote: Please see https://docs.github.com/en/get-started/getting-started-with-git/about-remote-repositories#cloning-with-https-urls for information on currently recommended modes of authentication.
+fatal: Authentication failed for 'https://github.com/Niesse12/CISC-3142.git/'
+]0;nesse@DESKTOP-KHL3DTG: /mnt/c/Users/Nesse/CISC-3142/Exercise3[01;32mnesse@DESKTOP-KHL3DTG[00m:[01;34m/mnt/c/Users/Nesse/CISC-3142/Exercise3[00m$ exit
+exit
+
+Script done on 2022-09-22 20:52:24-0700
