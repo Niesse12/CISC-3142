@@ -1,0 +1,13 @@
+1.int is for integer. long is just longer but same size as int. Short is for smaller numbers
+and long long is used when it is longer than int/long.
+float does not have precision compared to double. All bits represent value in unsign but not so in sign.
+2. I would use double for rate(there may be decimal as its not an exact value), double for principal(also might have decimal), and float for payment(huge amount)
+3. The output is 32, 4393967264, 32, -32, 0, and 0
+10. global_str is global variable so it has empty string. global int is global variable so it has value of 0. local_int is a local variable, not initialized, so no value.
+local_str is local variable that is unitialized but have value from class.
+12. a, c, and d are invalid
+13. j is 100
+14. the program is legal. output is 100 and 45
+17. the code prints 10 10
+27.b, c, d, e, and g is legal because it produces the const int
+28.a, b, c, and d is illegal ( e is legal because it has pointer to const int)
