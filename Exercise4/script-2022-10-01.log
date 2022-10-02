@@ -1,0 +1,8 @@
+Script started on 2022-10-01 23:46:02-0700
+]0;nesse@DESKTOP-KHL3DTG: /mnt/c/Users/Nesse/CISC-3142/Exercise4[01;32mnesse@DESKTOP-KHL3DTG[00m:[01;34m/mnt/c/Users/Nesse/CISC-3142/Exercise4[00m$ ls
+[0m[01;32m3.17.cpp[0m  [01;32m3.23.cpp[0m  [01;32m4.28.cpp[0m  [01;32mInflation.cpp[0m  [01;32mNutritionCalculator.cpp[0m  [01;32mscript-2022-10-01.log[0m  [01;32mtime-2022-10-01.txt[0m
+]0;nesse@DESKTOP-KHL3DTG: /mnt/c/Users/Nesse/CISC-3142/Exercise4[01;32mnesse@DESKTOP-KHL3DTG[00m:[01;34m/mnt/c/Users/Nesse/CISC-3142/Exercise4[00m$ g++ 3.17./[Kcpp
+]0;nesse@DESKTOP-KHL3DTG: /mnt/c/Users/Nesse/CISC-3142/Exercise4[01;32mnesse@DESKTOP-KHL3DTG[00m:[01;34m/mnt/c/Users/Nesse/CISC-3142/Exercise4[00m$ ./a.out
+bash: ./a.out: No such file or directory
+]0;nesse@DESKTOP-KHL3DTG: /mnt/c/Users/Nesse/CISC-3142/Exercise4[01;32mnesse@DESKTOP-KHL3DTG[00m:[01;34m/mnt/c/Users/Nesse/CISC-3142/Exercise4[00m$ g++3.17.[K[K[K[K[K g.1[K[K[K3.17.cpp -o output
+]0;nesse@DESKTOP-KHL3DTG
