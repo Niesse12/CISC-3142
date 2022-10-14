@@ -1,0 +1,33 @@
+Script started on 2022-10-13 22:22:40-0700
+]0;nesse@DESKTOP-KHL3DTG: /mnt/c/Users/Nesse/CISC-3142[01;32mnesse@DESKTOP-KHL3DTG[00m:[01;34m/mnt/c/Users/Nesse/CISC-3142[00m$ mbv[Kv[K[Kv pract[K[K[K[K[KPrac2.txt Exercise5/
+mv: cannot stat 'Prac2.txt': No such file or directory
+]0;nesse@DESKTOP-KHL3DTG: /mnt/c/Users/Nesse/CISC-3142[01;32mnesse@DESKTOP-KHL3DTG[00m:[01;34m/mnt/c/Users/Nesse/CISC-3142[00m$ mbv[K[Kv pract[K2[K[K[K[K[KPrac2.cpp Exercise5/
+mv: cannot stat 'Prac2.cpp': No such file or directory
+]0;nesse@DESKTOP-KHL3DTG: /mnt/c/Users/Nesse/CISC-3142[01;32mnesse@DESKTOP-KHL3DTG[00m:[01;34m/mnt/c/Users/Nesse/CISC-3142[00m$ mb [K[Kv e[KExercise[K[K[K[K[K[K[K[Kprac1[K[K[K[K[KPrac1.cpp Exercise5/
+]0;nesse@DESKTOP-KHL3DTG: /mnt/c/Users/Nesse/CISC-3142[01;32mnesse@DESKTOP-KHL3DTG[00m:[01;34m/mnt/c/Users/Nesse/CISC-3142[00m$ mv prac[K[K[K[KPrac2.ccp[K[Kpp Exercise5/
+]0;nesse@DESKTOP-KHL3DTG: /mnt/c/Users/Nesse/CISC-3142[01;32mnesse@DESKTOP-KHL3DTG[00m:[01;34m/mnt/c/Users/Nesse/CISC-3142[00m$ mb[Kv Prac3.cpp Exercise6[K5/
+]0;nesse@DESKTOP-KHL3DTG: /mnt/c/Users/Nesse/CISC-3142[01;32mnesse@DESKTOP-KHL3DTG[00m:[01;34m/mnt/c/Users/Nesse/CISC-3142[00m$ mb Exercise5.cpp e[KExercise5/
+
+Command 'mb' not found, but can be installed with:
+
+sudo apt install mrbayes
+
+]0;nesse@DESKTOP-KHL3DTG: /mnt/c/Users/Nesse/CISC-3142[01;32mnesse@DESKTOP-KHL3DTG[00m:[01;34m/mnt/c/Users/Nesse/CISC-3142[00m$ ,[K,b[K[Kmb[K[Kmv Exercise5.cpp Exercise5/
+]0;nesse@DESKTOP-KHL3DTG: /mnt/c/Users/Nesse/CISC-3142[01;32mnesse@DESKTOP-KHL3DTG[00m:[01;34m/mnt/c/Users/Nesse/CISC-3142[00m$ E[Km,[Kb coordinates.txt Exercise54[K[K5/
+
+Command 'mb' not found, but can be installed with:
+
+sudo apt install mrbayes
+
+]0;nesse@DESKTOP-KHL3DTG: /mnt/c/Users/Nesse/CISC-3142[01;32mnesse@DESKTOP-KHL3DTG[00m:[01;34m/mnt/c/Users/Nesse/CISC-3142[00m$ mv coordinates.txt Exercise5/
+]0;nesse@DESKTOP-KHL3DTG: /mnt/c/Users/Nesse/CISC-3142[01;32mnesse@DESKTOP-KHL3DTG[00m:[01;34m/mnt/c/Users/Nesse/CISC-3142[00m$ g++ prac[K[K[K[KPrac1.cpp
+[01m[Kg++:[m[K [01;31m[Kerror: [m[KPrac1.cpp: No such file or directory
+[01m[Kg++:[m[K [01;31m[Kfatal error: [m[Kno input files
+compilation terminated.
+]0;nesse@DESKTOP-KHL3DTG: /mnt/c/Users/Nesse/CISC-3142[01;32mnesse@DESKTOP-KHL3DTG[00m:[01;34m/mnt/c/Users/Nesse/CISC-3142[00m$ Exer[K[K[K[Kcd Ex[K[K[K[K[KCD[K[Kcd Exercise5/
+]0;nesse@DESKTOP-KHL3DTG: /mnt/c/Users/Nesse/CISC-3142/Exercise5[01;32mnesse@DESKTOP-KHL3DTG[00m:[01;34m/mnt/c/Users/Nesse/CISC-3142/Exercise5[00m$ g++ Pract[K1.cpp
+]0;nesse@DESKTOP-KHL3DTG: /mnt/c/Users/Nesse/CISC-3142/Exercise5[01;32mnesse@DESKTOP-KHL3DTG[00m:[01;34m/mnt/c/Users/Nesse/CISC-3142/Exercise5[00m$ g__[K[K++ p[KPrac2.cpp
+]0;nesse@DESKTOP-KHL3DTG: /mnt/c/Users/Nesse/CISC-3142/Exercise5[01;32mnesse@DESKTOP-KHL3DTG[00m:[01;34m/mnt/c/Users/Nesse/CISC-3142/Exercise5[00m$ 5++[K[K[K6++[K[K[Kt[Kg++ P[rac[K[K[K[Krac3.cpp
+]0;nesse@DESKTOP-KHL3DTG: /mnt/c/Users/Nesse/CISC-3142/Exercise5[01;32mnesse@DESKTOP-KHL3DTG[00m:[01;34m/mnt/c/Users/Nesse/CISC-3142/Exercise5[00m$ mb[Kv[K[Kcd /mnt/c/IIse[K[K[K[KI[KUe[Ksers/NM[Kesse/CIOS[K[KSC-3142/[K/
+]0;nesse@DESKTOP-KHL3DTG: /mnt/c/Users/Nesse/CISC-3142[01;32mnesse@DESKTOP-KHL3DTG[00m:[01;34m/mnt/c/Users/Nesse/CISC-3142[00m$ mv script-2022-10-13.txt Exercs[Kise5/
+mv: 
