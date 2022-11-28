@@ -1,0 +1,11 @@
+Script started on 2022-11-28 00:47:58-0800
+]0;nesse@DESKTOP-KHL3DTG: /mnt/c/Users/Nesse/CISC-3142/Exercise9[01;32mnesse@DESKTOP-KHL3DTG[00m:[01;34m/mnt/c/Users/Nesse/CISC-3142/Exercise9[00m$ [K]0;nesse@DESKTOP-KHL3DTG: /mnt/c/Users/Nesse/CISC-3142/Exercise9[01;32mnesse@DESKTOP-KHL3DTG[00m:[01;34m/mnt/c/Users/Nesse/CISC-3142/Exercise9[00m$ ls
+[0m[01;32mmain.cpp[0m  [01;32moutput.txt.txt[0m  [01;32mscript-2022-11-28.log[0m  [01;32mtime-2022-11-28.txt[0m  [01;32mweather.txt.txt[0m
+]0;nesse@DESKTOP-KHL3DTG: /mnt/c/Users/Nesse/CISC-3142/Exercise9[01;32mnesse@DESKTOP-KHL3DTG[00m:[01;34m/mnt/c/Users/Nesse/CISC-3142/Exercise9[00m$ [K]0;nesse@DESKTOP-KHL3DTG: /mnt/c/Users/Nesse/CISC-3142/Exercise9[01;32mnesse@DESKTOP-KHL3DTG[00m:[01;34m/mnt/c/Users/Nesse/CISC-3142/Exercise9[00m$ g++ main.cpp
+]0;nesse@DESKTOP-KHL3DTG: /mnt/c/Users/Nesse/CISC-3142/Exercise9[01;32mnesse@DESKTOP-KHL3DTG[00m:[01;34m/mnt/c/Users/Nesse/CISC-3142/Exercise9[00m$ ./a.out
+terminate called after throwing an instance of 'std::invalid_argument'
+  what():  stoi
+Aborted (core dumped)
+]0;nesse@DESKTOP-KHL3DTG: /mnt/c/Users/Nesse/CISC-3142/Exercise9[01;32mnesse@DESKTOP-KHL3DTG[00m:[01;34m/mnt/c/Users/Nesse/CISC-3142/Exercise9[00m$ g{{[K[K++ main.cpp -0 [K[Ko output
+]0;nesse@DESKTOP-KHL3DTG: /mnt/c/Users/Nesse/CISC-3142/Exercise9[01;32mnesse@DESKTOP-KHL3DTG[00m:[01;34m/mnt/c/Users/Nesse/CISC-3142/Exercise9[00m$ ./output
+terminate called after throwing an instance of 'std::invalid_ar
